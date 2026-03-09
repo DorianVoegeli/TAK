@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meine erste Webseite</title>
+</head>
+<body>
+  <h1>Hallo, das ist meine erste Webseite!</h1>
+  <p>Ich lerne gerade HTML.</p>
+
+  <button onclick="zeigeNachricht()">Klick mich</button>
+
+  <p id="ausgabe"></p>
+
+  <script>
+    function zeigeNachricht() {
+      document.getElementById("ausgabe").innerText = "Super, es funktioniert!";
+    }
+  </script>
+</body>
+</html>
